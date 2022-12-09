@@ -1,0 +1,231 @@
+.main-section{
+	width: 100%;
+	height: 500px;
+}
+.background {
+	 width: 100%;
+    height: 270px;
+    background-color: black;
+    display: inline-block;
+}
+.header {
+    width: 50%;
+    height: 100%;
+     background-repeat: no-repeat;
+   background-image : url("content/bg/logo1.png");
+
+}
+#myquote{
+	width: 60%;
+	height: 100%;
+	margin-left: 40%;
+}
+
+.icon {
+    width: 5%;
+    height: 90px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 16%;
+}
+.icon2 {
+    width: 1%;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    right: 48%;
+    top: 42px;
+    background-color: red;
+}
+.quote{
+       width: 35%;
+    height: 220px;
+    display: inline-block;
+    position: absolute;
+    right: 8.80%;
+    top: 28px;
+}
+.hamburger{
+	height: 70%;
+	width: 70%;
+	margin-left: 14%;
+}
+
+#page-title {
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    right: 26%;
+    top: 15px;
+    color: white;
+    font-size: 60px;
+    font-family: helvetica;
+    line-height: 5%;
+    
+}
+.main{
+	margin-top:-1.5% ;
+height: 700%;
+width: 100%;
+
+background-color: black;
+}
+.hamburglist{
+    width: 5%;
+    height: 55%;
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+}
+
+.bar{
+	 width: 5%;
+    height: 90%;
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+}
+.main img{
+	width: 100%;
+	height: 80%;
+	margin-top: 10%;
+}
+.car-logo{
+    width :100%;
+	height:80px;
+	margin-bottom: 5px;
+}
+.navbar{
+	 width :100%;
+	height:80px;
+    position: fixed;
+}
+.navbar button:hover{
+	background-color: red;
+}
+.navbar #button1:hover{
+	background-color:#E87400 ;
+}
+.button-color{
+	color:white;
+	font-family: helvetica;
+	width: 220px;
+	font-size: 30px;
+	text-align: left;
+margin: 10px;
+background-color: black;
+}
+.middle-content{
+	 width: 72%;
+    height: 70%;
+    position: absolute;
+    left: 19%;
+    top: 40%;
+}
+.imgslide{
+	width:100%;
+	height:100% ;
+}
+#slide{
+	 width: 60%;
+    height: 85%;
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    background-size: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    width: 72%;
+    height: 90%;
+    position: absolute;
+    left:19%;
+    top: 120%;
+    font-size: 20px;
+    grid-gap: 1px;
+    font-weight: bold;
+}
+.engine{
+    height: 100%;
+    width: 100%;
+color: white;
+}
+.engine img{
+    height: 50%;
+    border:solid black;
+    border-radius:30px 30px 30px 30px;
+    opacity:70%;
+}
+.engType{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+.engine:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+.body-img{
+    height: 100%;
+    width: 100%;
+color: white;
+}
+.body-img img{
+    height: 50%;
+    border:solid black;
+    border-radius:30px 30px 30px 30px;
+    opacity:70%;
+}
+
+.body-Type{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+.body-img:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.wheels{
+   height: 100%;
+    width: 100%;
+color: white;  
+}
+.wheels img{
+    height: 50%;
+    border:solid black;
+}
+.wheel-Type{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+.wheel-img:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+#home-button img{
+    width: 70%;
+     height: 100%;
+ }
+#home-button{
+     top: 20px;
+    left: 25px;
+    height: 40px;
+    width: 65px;
+    background-color: black;
+    float: left;
+    position: fixed;
+}
+#home-description{
+    height: 30%;
+    width: 100%;
+   margin-top: 35%;
+}
